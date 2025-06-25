@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+/* variables */
+:root {
+  --primary-100: #f5fee7;
+  --primary-400: #57a203;
+}
+
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: solid 1px; */
+}
+
+body {
+  font-family: "Montserrat", "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* utils */
+.container {
+  max-width: 1320px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 40px;
+}
+
+.h5 {
+  font-size: 20px;
+}
+
+.fs-1 {
+  font-size: 2.5rem;
+}
+
+.fs-2 {
+  font-size: 2rem;
+}
+
+.fs-3 {
+  font-size: 1.75rem;
+}
+
+.fs-4 {
+  font-size: 1.5rem;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary-400 {
+  color: var(--primary-400);
+}
+
+.me-2 {
+  margin-right: 8px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-3 {
+  margin-bottom: 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-12 {
+  margin-bottom: 48px;
+}
+
+.mb-18 {
+  margin-bottom: 64px;
+}
+
+.pt-6 {
+  padding-top: 24px;
+}
+
+.ps-3 {
+  padding-left: 12px;
+}
+
+.pe-2 {
+  padding-right: 8px;
+}
+
+.pb-12 {
+  padding-bottom: 48px;
+}
+
+.pb-16 {
+  padding-bottom: 64px;
+}
+
+.list-disc {
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+/* components */
+.link-underline {
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: inline-block;
+  background: var(--primary-400);
+  height: 1px;
+  width: 100%;
+}
+
+/* pages */
+.brand-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-size: cover;
+  height: 400px;
+}
+
+.brand-article .quote {
+  max-width: 856px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
+  background: var(--primary-100);
+}
+
+.brand-article .photo {
+  max-width: 1076px;
+  margin: 0 auto;
+}
+
+.brand-article .content {
+  max-width: 856px;
+  margin: 0 auto;
+}
+
+.brand-article .content-border {
+  border-bottom: solid 1px #dee2e6;
+}
+
+.brand-article .article-link {
+  padding: 8px 0;
+  transition: opacity 0.5s;
+}
+
+.brand-article .article-link:hover {
+  opacity: 0.8;
+}
+
+.time-deco {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+}
+
+.time-deco::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  background: #212529;
+}
+
+.border-deco {
+  border-left: solid 3px #dee2e6;
+}
