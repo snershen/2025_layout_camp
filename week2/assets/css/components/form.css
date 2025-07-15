@@ -1,0 +1,12 @@
+.search-input{
+  background: var(--neutral-200);
+  max-width: 240px;
+  padding: 16px 12px;
+  border-radius: 4px;
+}
+
+.search-input input {
+  border: none;
+  outline: none;
+  background-color: var(--neutral-200);
+}

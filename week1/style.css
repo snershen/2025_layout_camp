@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+TC:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 /* variables */
@@ -147,7 +147,7 @@ table {
 }
 
 body {
-  font-family: "Montserrat", "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.05em;
   color: #212529;
@@ -177,7 +177,7 @@ a {
 
 /* utils */
 .container {
-  max-width: 856px;
+  max-width: 880px;
   padding: 0 12px;
   margin: 0 auto;
 }
@@ -309,7 +309,7 @@ a {
   background: var(--primary-100);
 }
 
-.brand-article .photo {
+.photo {
   margin-right: -110px;
   margin-left: -110px;
 }

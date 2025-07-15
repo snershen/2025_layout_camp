@@ -1,0 +1,40 @@
+.product-img-wrapper {
+    gap: 8px;
+}
+
+.product-img-wrapper__item {
+    width: calc(50% - 8px)
+}
+
+.color-option {
+  gap: 8px;
+}
+
+.color-option__btn img {
+  width: 64px;
+  height: 64px;
+  background: rgba(241, 243, 247, 1);
+}
+
+.color-option__btn:hover {
+  opacity: 0.8;
+}
+
+.size-option {
+  gap: 8px;
+}
+
+.size-option__btn {
+  border: solid 1px var(--neutral-300);
+}
+
+.size-option__btn:not(.disabled):hover {
+  border: solid 1px var(--neutral-900);
+}
+
+.size-option__btn.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+

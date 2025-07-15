@@ -1,0 +1,17 @@
+.product-list {
+  row-gap: 48px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.category__link {
+  padding: 12px 0;
+}
+
+.category__link.active {
+  color: var(--primary-400);
+}

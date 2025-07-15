@@ -1,0 +1,53 @@
+{
+  "product-cards": [
+    {
+      "title": "PLATFORM 404",
+      "price": "NT$2,600",
+      "src": "assets/images/products/Product-Card.png"
+    },
+    {
+      "title": "PLATFORM 404",
+      "price": "NT$2,600",
+      "src": "assets/images/products/Product-Card-1.png"
+    },
+    {
+      "title": "VM001",
+      "price": "NT$2,600",
+      "src": "assets/images/products/Product-Card-2.png",
+      "related": "PLATFORM 404"
+    },
+    {
+      "title": "Melty Kiss",
+      "price": "NT$4,000",
+      "src": "assets/images/products/Product-Card-3.png",
+      "related": "PLATFORM 404"
+    },
+    {
+      "title": "BOOMBLOK",
+      "price": "NT$3,200",
+      "src": "assets/images/products/Product-Card-4.png",
+      "related": "PLATFORM 404"
+    },
+    {
+      "title": "BOOMBLOK",
+      "price": "NT$3,200",
+      "src": "assets/images/products/Product-Card-5.png"
+    },
+    {
+      "title": "R:UNER",
+      "price": "NT$4,000",
+      "src": "assets/images/products/Product-Card-6.png"
+    },
+    {
+      "title": "Sugar Snap",
+      "price": "NT$4,000",
+      "src": "assets/images/products/Product-Card-7.png",
+      "related": "PLATFORM 404"
+    },
+    {
+      "title": "Neofoam",
+      "price": "NT$4,000",
+      "src": "assets/images/products/Product-Card-8.png"
+    }
+  ]
+}

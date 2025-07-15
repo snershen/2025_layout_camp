@@ -1,0 +1,14 @@
+.breadcrumb__item {
+  color: var(--neutral-600);
+}
+
+.breadcrumb__item:last-child {
+  color: var(--neutral-900);
+}
+
+.breadcrumb__item + .breadcrumb__item::before {
+  content: "/";
+  display: inline-block;
+  padding: 0 12px;
+  color: var(--neutral-300);
+}

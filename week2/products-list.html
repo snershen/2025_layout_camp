@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <title>week2 - 產品列表頁</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header"></div>
+      <main class="pt-8">
+        <nav id="breadcrumb" class="mb-6"></nav>
+        <h1 class="h3 mb-6">所有商品</h1>
+        <div class="row pb-8">
+          <div class="col-2">
+            <ul class="category fw-medium label-md">
+              <li><a href="#" class="category__link active">所有商品</a></li>
+              <li><a href="#" class="category__link">慢跑鞋</a></li>
+              <li><a href="#" class="category__link">滑板鞋</a></li>
+              <li><a href="#" class="category__link">厚底鞋</a></li>
+              <li><a href="#" class="category__link">限定 / 聯名企劃</a></li>
+            </ul>
+          </div>
+          <div class="col-10">
+            <div id="productList" class="mb-12"></div>
+            <div id="pagination" class="d-flex justify-content-center"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div id="memberDiscount" class="pt-12"></div>
+    <div id="footer"></div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
